@@ -1,0 +1,51 @@
+{
+  "name": "arduino-ide",
+  "displayName": "Catppuccin for Arduino IDE",
+  "description": "⚙️ Soothing pastel theme for Arduino IDE.",
+  "version": "0.1.0",
+  "publisher": "Samx123-arch",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "catppuccin",
+    "arduino-ide",
+    "latte",
+    "frappe",
+    "macchiato",
+    "mocha",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Catppuccin Latte",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte-color-theme.json"
+      },
+      {
+        "label": "Catppuccin Frappé",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-frappe-color-theme.json"
+      },
+      {
+        "label": "Catppuccin Macchiato",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-macchiato-color-theme.json"
+      },
+      {
+        "label": "Catppuccin Mocha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-mocha-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Samx123-arch/arduino-ide.git"
+  }
+}
