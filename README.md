@@ -34,10 +34,15 @@
 
 ## Usage
 
-1. Download the lastest release.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
-
+1. Download the latest release.
+2. Copy the downloaded .vsix file.
+3. Open File Explorer.
+4. Paste the file into the Arduino IDE plugins folder:
+    ```text
+    C:\Users\%USERPROFILE%\.arduinoIDE\plugins\
+    ```
+5. Open Arduino IDE and press Ctrl+Comma
+6. Click on theme and select your preferred flavor
 ## 💝 Thanks to
 
 - [Samx123-code](https://github.com/catppuccin)
