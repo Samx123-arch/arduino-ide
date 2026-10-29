@@ -37,7 +37,7 @@
 1. Download the latest release.
 2. Copy the downloaded .vsix file.
 3. Open File Explorer.
-4. Paste the file into the Arduino IDE plugins folder:
+4. Paste the file into the Arduino IDE plugins folder: (Create the folder if needed)
     ```text
     C:\Users\%USERPROFILE%\.arduinoIDE\plugins\
     ```
