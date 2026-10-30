@@ -50,7 +50,7 @@
 &nbsp;
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+  <img src="./catppuccin-footer.png" alt="Catppuccin Footer" width="100%">
 </p>
 
 <p align="center">

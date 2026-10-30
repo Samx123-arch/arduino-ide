@@ -1,3 +1,4 @@
+
 {
   "$schema": "vscode://schemas/color-theme",
   "name": "Catppuccin Latte",
@@ -5,7 +6,7 @@
   "colors": {
     "focusBorder": "#7287fd",
     "foreground": "#4c4f69",
-    "descriptionForeground": "#6c6f85",
+    "descriptionForeground": "#5c5f77",
     "disabledForeground": "#9ca0b0",
     "errorForeground": "#d20f39",
     "icon.foreground": "#5c5f77",
@@ -14,17 +15,17 @@
     "editorLineNumber.foreground": "#9ca0b0",
     "editorLineNumber.activeForeground": "#7287fd",
     "editorCursor.foreground": "#dc8a78",
-    "editor.selectionBackground": "#bcc0cc",
-    "editor.inactiveSelectionBackground": "#ccd0da",
+    "editor.selectionBackground": "#acb0be",
+    "editor.inactiveSelectionBackground": "#bcc0cc",
     "editor.lineHighlightBackground": "#e6e9ef",
-    "editorIndentGuide.background1": "#ccd0da",
+    "editorIndentGuide.background1": "#bcc0cc",
     "editorIndentGuide.activeBackground1": "#9ca0b0",
-    "editorWhitespace.foreground": "#bcc0cc",
+    "editorWhitespace.foreground": "#acb0be",
     "editorWidget.background": "#e6e9ef",
-    "editorWidget.border": "#bcc0cc",
+    "editorWidget.border": "#acb0be",
     "editorSuggestWidget.background": "#e6e9ef",
     "editorSuggestWidget.foreground": "#4c4f69",
-    "editorSuggestWidget.selectedBackground": "#bcc0cc",
+    "editorSuggestWidget.selectedBackground": "#acb0be",
     "editorHoverWidget.background": "#e6e9ef",
     "sideBar.background": "#e6e9ef",
     "sideBar.foreground": "#4c4f69",
@@ -36,9 +37,9 @@
     "activityBar.inactiveForeground": "#9ca0b0",
     "activityBar.border": "#dce0e8",
     "panel.background": "#e6e9ef",
-    "panel.border": "#ccd0da",
+    "panel.border": "#bcc0cc",
     "panelTitle.activeForeground": "#7287fd",
-    "panelTitle.inactiveForeground": "#6c6f85",
+    "panelTitle.inactiveForeground": "#5c5f77",
     "statusBar.background": "#e6e9ef",
     "statusBar.foreground": "#4c4f69",
     "statusBar.border": "#e6e9ef",
@@ -47,11 +48,11 @@
     "titleBar.activeBackground": "#e6e9ef",
     "titleBar.activeForeground": "#4c4f69",
     "titleBar.inactiveBackground": "#e6e9ef",
-    "titleBar.inactiveForeground": "#6c6f85",
+    "titleBar.inactiveForeground": "#5c5f77",
     "tab.activeBackground": "#eff1f5",
     "tab.activeForeground": "#7287fd",
     "tab.inactiveBackground": "#e6e9ef",
-    "tab.inactiveForeground": "#6c6f85",
+    "tab.inactiveForeground": "#5c5f77",
     "tab.border": "#dce0e8",
     "tab.activeBorderTop": "#7287fd",
     "button.background": "#7287fd",
@@ -59,18 +60,18 @@
     "button.hoverBackground": "#1e66f5",
     "input.background": "#e6e9ef",
     "input.foreground": "#4c4f69",
-    "input.border": "#bcc0cc",
+    "input.border": "#acb0be",
     "input.placeholderForeground": "#9ca0b0",
     "dropdown.background": "#e6e9ef",
     "dropdown.foreground": "#4c4f69",
-    "dropdown.border": "#bcc0cc",
-    "list.activeSelectionBackground": "#bcc0cc",
+    "dropdown.border": "#acb0be",
+    "list.activeSelectionBackground": "#acb0be",
     "list.activeSelectionForeground": "#4c4f69",
-    "list.hoverBackground": "#ccd0da",
-    "list.inactiveSelectionBackground": "#ccd0da",
+    "list.hoverBackground": "#bcc0cc",
+    "list.inactiveSelectionBackground": "#bcc0cc",
     "terminal.background": "#eff1f5",
     "terminal.foreground": "#4c4f69",
-    "terminal.ansiBlack": "#bcc0cc",
+    "terminal.ansiBlack": "#acb0be",
     "terminal.ansiRed": "#d20f39",
     "terminal.ansiGreen": "#40a02b",
     "terminal.ansiYellow": "#df8e1d",
@@ -78,129 +79,39 @@
     "terminal.ansiMagenta": "#ea76cb",
     "terminal.ansiCyan": "#179299",
     "terminal.ansiWhite": "#5c5f77",
-    "terminal.ansiBrightBlack": "#acb0be",
+    "terminal.ansiBrightBlack": "#bcc0cc",
     "terminal.ansiBrightRed": "#d20f39",
     "terminal.ansiBrightGreen": "#40a02b",
     "terminal.ansiBrightYellow": "#df8e1d",
     "terminal.ansiBrightBlue": "#1e66f5",
     "terminal.ansiBrightMagenta": "#ea76cb",
     "terminal.ansiBrightCyan": "#179299",
-    "terminal.ansiBrightWhite": "#6c6f85"
+    "terminal.ansiBrightWhite": "#5c5f77",
+    "editorGutter.addedBackground": "#40a02b",
+    "editorGutter.modifiedBackground": "#1e66f5",
+    "editorGutter.deletedBackground": "#d20f39",
+    "editorBracketMatch.background": "#acb0be66",
+    "editorBracketMatch.border": "#7287fd",
+    "editorInfo.foreground": "#1e66f5",
+    "editor.findMatchHighlightBackground": "#df8e1d33",
+    "editor.findMatchBackground": "#df8e1d66",
+    "editor.wordHighlightStrongBackground": "#8839ef33",
+    "editor.selectionHighlightBackground": "#7287fd33",
+    "editorError.foreground": "#d20f39",
+    "editor.wordHighlightBackground": "#1e66f522",
+    "editorWarning.foreground": "#df8e1d"
   },
   "tokenColors": [
-    {
-      "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
-      "settings": {
-        "foreground": "#8c8fa1",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
-      "settings": {
-        "foreground": "#8839ef"
-      }
-    },
-    {
-      "name": "Strings",
-      "scope": [
-        "string",
-        "constant.other.symbol"
-      ],
-      "settings": {
-        "foreground": "#40a02b"
-      }
-    },
-    {
-      "name": "Numbers and constants",
-      "scope": [
-        "constant.numeric",
-        "constant.language",
-        "constant.character"
-      ],
-      "settings": {
-        "foreground": "#fe640b"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
-      "settings": {
-        "foreground": "#1e66f5"
-      }
-    },
-    {
-      "name": "Types and classes",
-      "scope": [
-        "entity.name.type",
-        "entity.name.class",
-        "support.type"
-      ],
-      "settings": {
-        "foreground": "#df8e1d"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": [
-        "variable",
-        "identifier"
-      ],
-      "settings": {
-        "foreground": "#4c4f69"
-      }
-    },
-    {
-      "name": "Operators and punctuation",
-      "scope": [
-        "keyword.operator",
-        "punctuation"
-      ],
-      "settings": {
-        "foreground": "#04a5e5"
-      }
-    },
-    {
-      "name": "Preprocessor directives",
-      "scope": [
-        "keyword.control.directive",
-        "meta.preprocessor"
-      ],
-      "settings": {
-        "foreground": "#d20f39"
-      }
-    },
-    {
-      "name": "Constants and macros",
-      "scope": [
-        "variable.other.constant",
-        "entity.name.constant",
-        "constant"
-      ],
-      "settings": {
-        "foreground": "#fe640b"
-      }
-    },
-    {
-      "name": "Parameters",
-      "scope": [
-        "variable.parameter"
-      ],
-      "settings": {
-        "foreground": "#e64553"
-      }
-    }
+    {"name": "Comments", "scope": ["comment", "punctuation.definition.comment"], "settings": {"foreground": "#8c8fa1", "fontStyle": "italic"}},
+    {"name": "Keywords", "scope": ["keyword", "storage.type", "storage.modifier"], "settings": {"foreground": "#8839ef"}},
+    {"name": "Strings", "scope": ["string", "constant.other.symbol"], "settings": {"foreground": "#40a02b"}},
+    {"name": "Numbers and constants", "scope": ["constant.numeric", "constant.language", "constant.character"], "settings": {"foreground": "#fe640b"}},
+    {"name": "Functions", "scope": ["entity.name.function", "support.function"], "settings": {"foreground": "#1e66f5"}},
+    {"name": "Types and classes", "scope": ["entity.name.type", "entity.name.class", "support.type"], "settings": {"foreground": "#df8e1d"}},
+    {"name": "Variables", "scope": ["variable", "identifier"], "settings": {"foreground": "#4c4f69"}},
+    {"name": "Operators and punctuation", "scope": ["keyword.operator", "punctuation"], "settings": {"foreground": "#04a5e5"}},
+    {"name": "Preprocessor directives", "scope": ["keyword.control.directive", "meta.preprocessor"], "settings": {"foreground": "#d20f39"}},
+    {"name": "Constants and macros", "scope": ["variable.other.constant", "entity.name.constant", "constant"], "settings": {"foreground": "#fe640b"}},
+    {"name": "Parameters", "scope": ["variable.parameter"], "settings": {"foreground": "#e64553"}}
   ]
 }
