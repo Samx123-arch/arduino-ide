@@ -10,7 +10,9 @@
 	<a href="https://github.com/Samx123-arch/arduino-ide/issues"><img src="https://img.shields.io/github/issues/Samx123-arch/arduino-ide?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
 	<a href="https://github.com/Samx123-arch/arduino-ide/contributors"><img src="https://img.shields.io/github/contributors/Samx123-arch/arduino-ide?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 
-![Preview](assets/preview.webp)
+<p align="center">
+	<img src="assets/preview.webp"/>
+</p>
 
 ## Previews
 
@@ -31,9 +33,10 @@
 <img src="assets/mocha.webp"/>
 </details>
 
+
 ## Usage
 
-1. Download the latest release.
+1. Download the theme from the [latest release](https://github.com/Samx123-arch/arduino-ide/releases/latest).
 2. Copy the downloaded .vsix file.
 3. Open File Explorer.
 4. Paste the file into the Arduino IDE plugins folder: (Create the folder if needed)
