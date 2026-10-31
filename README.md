@@ -44,7 +44,7 @@
 6. Click on theme and select your preferred flavor
 ## 💝 Thanks to
 
-- [Samx123-code](https://github.com/catppuccin)
+- [Samx123-arch](https://github.com/Samx123-arch)
 
 &nbsp;
 
